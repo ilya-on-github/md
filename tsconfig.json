@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@store/*": [
+        "app/store/*"
+      ],
+      "@login/*": [
+        "app/login/*"
+      ]
+    }
   }
 }
